@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flipkart</title>
+    <link rel="shortcut icon" href="./favicon_io/android-chrome-192x192.png" type="image/x-icon">
+    <style>
+         #father{
+            height: 500px;
+            width: 600px;
+            border: 1px solid;
+           margin: 0 auto;
+           margin-top: 100px;
+            background-color: rgb(5, 134, 246);
+            box-shadow: 2px 3px 3px ;
+            display: flex;
+            justify-content: right;
+        }
+        #child{
+            height: 500px;
+            width: 350px;
+            left: 30px;
+            background-color: white;           
+         }
+         img{height: 150px;width: 150px;
+            position: relative;
+            top: 300px;
+            left:-63px;
+         }
+         input[type="email"]{
+            width: 300px;
+            border: none;
+            margin-top: 50px;
+            outline-width: 300px ;
+            outline: none;
+         }
+         #lo{
+            position: relative;
+            left: 164px;
+            top: 30px;
+            color: white;
+         }
+         #para{
+            position: relative;
+            top: 100px;
+            color: rgb(222, 219, 219);
+            left: 83px;
+            font-size: larger;
+         }
+         input[type="password"]{
+            width: 300px;
+            border: none;
+            margin-top: 50px;
+            outline-width: 300px ;
+            outline: none;
+            position: relative;
+            top: -10px;
+         }
+         #forgot{
+            position: relative;
+            left: 125px;
+            bottom: 14px;
+         }
+         .AD{
+            width: 320px;
+           position: relative;
+           left: 20px;     
+            
+         }
+
+         #AS1{
+            border-bottom: 1px solid;
+         }#ASa{
+            border-bottom: 1px solid;
+         }
+         #AS4{
+            height: 40px;width: 320px;
+            background-color: orangered;
+            display: flex;
+            justify-content: center; 
+            position: relative;
+            top: 20px; 
+
+         } 
+         #form{
+            border: none;
+            color: white;
+           background-color: orangered;
+         }   
+         a{text-decoration: none;} 
+         a:visited{
+            color: blue;
+         }
+         #AS6{height: 40px;width: 320px;
+            background-color: white;
+            display: flex;
+            border: 1px solid;
+            justify-content: center; 
+            position: relative;
+            top: 30px;
+            box-shadow: 0px 0px 3px 0px ;
+         }
+         #otp{
+            border: none;
+            color: blue;
+           background-color: white;
+         } 
+         #AS7{
+            position: relative;
+            top: 100px;
+            
+         }  
+         
+        
+    </style>
+</head>
+<body> 
+    <div id="father">
+        <div id="lo"><h1>Login</h1></div>
+        <div id="para"> 
+            Get access to your Order,Wishlistx and Recommendations
+        </div>
+        <div id="img">
+            <img src="./IMAGE/filpkart.jfif" alt="">
+        </div>
+       
+        <form action=""> 
+             <div id="child"> 
+                <div class="AD" id="AS1">
+                    <input  type="email" name="" id="" placeholder="Enter Email/Enter mobile No."> 
+                </div>
+                <div class="AD" id="AS2">
+                    <input type="password" name="" id="ASa" placeholder="Enter password"> 
+                    <div id="forgot"><a href="#" id="forgot">Forgot?</a></div>
+                </div>
+                <div class="AD" id="AS3">
+                    by continuing, you agree to Flipkart's <a href="https://manmatters.com/orderdetails/051403474">Terms of Use</a> and <a href="#">Privacy Policy</a>.
+                </div>
+                <div class="AD" id="AS4">
+                    <input type="submit" value="Login" id="form" >
+
+                </div>
+                <br>
+                <br>
+                <div class="AD" id="AS5">
+                  <center >OR</center> 
+                </div>
+                <div class="AD" id="AS6">
+                    <button id="otp">
+                        Resend OTP
+                    </button>
+
+                </div>
+                <div class="AD" id="AS7">
+                  <center> <a href="#">New to Filpkart? Create an account </a> </center>
+                </div>
+            </div>
+        </form>
+    </div>
+</body>
+</html>
